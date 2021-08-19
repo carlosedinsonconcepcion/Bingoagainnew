@@ -11,7 +11,13 @@
 
 	 public function callNumber()
 	 {
-		 return 39;
+		 do {
+		 	$number = rand(1,75);
+		 } while(in_array($number, $this->numbers));
+
+		 $this->numbers[] =  $number;
+
+			 return $number;
 	 }
  }
 

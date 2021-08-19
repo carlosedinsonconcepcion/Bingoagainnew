@@ -22,6 +22,8 @@ class BingoCallerTest extends TestCase
 		for ($i=1; $i<=75; ++$i) {
 			$calledNumbers[] = $caller->callNumber();
 		}
+		
+		sort($calledNumbers);
 
 		$this->assertEquals($expectedNumbers, $calledNumbers);
 	}
