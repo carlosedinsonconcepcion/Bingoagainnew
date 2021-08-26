@@ -72,6 +72,8 @@ class ComposerStaticInit3550db3bcfb9b6025d9d879561dd40fb
 
     public static $classMap = array (
         'BingoCaller' => __DIR__ . '/../..' . '/src/BingoCaller.php',
+        'BingoCardGenerator' => __DIR__ . '/../..' . '/src/BingoCardGenerator.php',
+        'Card' => __DIR__ . '/../..' . '/src/Models/Card.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
